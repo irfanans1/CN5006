@@ -22,7 +22,7 @@ console.log(student.Location())
 console.log(student.dob)
 
 console.log(student.Studentgrade())
-console.log("grade is "+student.Studentgrade(55) )
+console.log("grade is "+student.Studentgrade(75) )
 
 person1= new person("Irfan","UK","irfanans2004@gmail.com")
 console.log("using Person Module",person1.getPersonInfo())

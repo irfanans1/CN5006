@@ -1,8 +1,5 @@
-
 console.log("Hello");
 console.log("This is my First Programe");
-
-
 const num1 = 5;
 const num2 = 4;
 const sum = num1+ num2;
@@ -16,7 +13,6 @@ const number= parseInt(prompt("Enter a number: "));
 if (number > 0) {
     console.log("The number is Positive");
 }
-
 else if(number == 0){
     console.log("The Number is Zero");
 }
