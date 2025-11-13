@@ -2,6 +2,7 @@ import React, { useState ,useEffect} from "react";
 import Love from './Love.png'
 import Sad from './sad.png'
 import Like from './like.png'
+
 function EmojeeCounter(props){
 console.log("pic is ",props.pic)
 const [pic, setPic]=useState(Love)
@@ -12,7 +13,7 @@ if (props.pic==="Love")
  setPic(Love)
 else if (props.pic==="Like")
  setPic(Like)
-else if (props.pic==="sad")
+else if (props.pic==="Sad")
  setPic(Sad)
 })
 const ClickHandle=() =>
