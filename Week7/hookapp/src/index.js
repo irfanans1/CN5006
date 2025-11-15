@@ -4,15 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hook_ControlledButtonState from './Counter.js'
-import EmojeeCounter from './EmojeeCounters.js'
+import WeatherMoodWidgetApp from './WeatherMoodWidgetApp.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Hook_ControlledButtonState />
-    <EmojeeCounter pic='Love'/>
-    <EmojeeCounter pic='Sad'/>
-    <EmojeeCounter pic='Like'/> 
+    <WeatherMoodWidgetApp pic='sunny' />
+    <WeatherMoodWidgetApp pic='rainy' />
+    <WeatherMoodWidgetApp pic='cloudy' />
   </React.StrictMode>
 );
 
